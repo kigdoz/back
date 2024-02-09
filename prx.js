@@ -299,12 +299,8 @@ const raw_proxy_sites = [
 'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt',
 'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt',
 'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/https.txt',
+'https://proxy.apicode.blog/proxy?key=free&protocol=http&type=1',
 'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt',
-'https://spys.one/free-proxy-list/VN/',
-'https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies',
-'https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&country=VN&anonymity=all&timeout=15000&proxy_format=ipport&format=text',
-'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=10000&country=all&ssl=all&anonymity=all',
-'https://proxypremium.top/full-proxy-list',
 ];
 
 async function fetchProxies() {
