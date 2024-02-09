@@ -1,4 +1,4 @@
-import requests
+﻿import requests
 import threading
 from termcolor import colored
 import os
@@ -136,7 +136,7 @@ if __name__ == "__main__":
         clear()
         typing_effect("Nhập tên tệp chứa proxy để kiểm tra: ")
         filename = input("> \033[0m")
-        num_threads = 500000
+        num_threads = 450000
         os.system("cls" if os.name == "nt" else "clear")
         check_live_proxies(filename, num_threads)
     except KeyboardInterrupt:
